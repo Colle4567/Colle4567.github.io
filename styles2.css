@@ -8,11 +8,11 @@ body {
     margin: 0;
     overflow: hidden;
     background-color: #333;
+    float: left;
+    max-height: 250px;
 }
 
-.navbar{
-    float: left;
-}
+
 
 .navbar a{
     float: left;
