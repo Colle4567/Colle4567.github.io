@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 15px;
+}
+
+.navbar img.logo {
+    height: 50px;
+}
+
+.navbar button {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.navbar button:hover {
+    background-color: #777;
+}
+
+.parallax {
+    background-image: url('landing-image.jpg'); /* Replace with your image */
+    height: 400px; /* Adjust height as needed */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-us, .zig-zag, .cta {
+    padding: 20px;
+}
+
+.zig-zag {
+    display: flex;
+}
+
+.zigzag-item {
+    width: 50%;
+}
+
+.zigzag-item.left {
+    padding-right: 10px;
+}
+
+.zigzag-item.right {
+    padding-left: 10px;
+}
+
+.cta img {
+    max-width: 100%;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
