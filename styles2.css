@@ -10,20 +10,26 @@ body {
     background-color: #333;
 }
 
-.navbar-buttons li{
+.navbar{
     float: left;
 }
 
-.navbar-buttons li a{
-    display: block;
-    color: white;
+.navbar a{
+    float: left;
+    color: #f3f3f3;
     text-align: center;
     padding: 15px 15px;
     text-decoration: none;
+    font-size: 15px;
 }
 
-.navbar-buttons li a:hover{
+.navbar a:hover{
+    background-color: white;
+}
+
+.navbar a.active{
     background-color: pink;
+    color: white;
 }
 
 .parallax {
