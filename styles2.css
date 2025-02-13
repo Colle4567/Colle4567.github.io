@@ -15,16 +15,22 @@ body {
     height: 50px;
 }
 
-.navbar button {
-    background-color: #555;
+.nav-buttons {
+    display: flex;
+}
+
+.nav-buttons button {
+    background-color: transparent;
     color: white;
     border: none;
     padding: 10px 15px;
     cursor: pointer;
+    margin: 0; /* No margin between buttons */
 }
 
-.navbar button:hover {
-    background-color: #777;
+.nav-buttons button:hover {
+    background-color: white; /* Inverted highlight */
+    color: #333; /* Change text color on hover */
 }
 
 .parallax {
