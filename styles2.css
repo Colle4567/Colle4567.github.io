@@ -39,12 +39,20 @@ body {
     background-size: cover;
 }
 
-.about-us, .zig-zag, .cta {
+.about-us, .cta {
     padding: 20px;
+    text-align: center;
 }
 
 .zig-zag {
     display: flex;
+    padding: 64px;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .zigzag-item {
@@ -52,11 +60,15 @@ body {
 }
 
 .zigzag-item.left {
-    padding-right: 10px;
+    float: left;
+    width: 66.6666%;
+    padding-right: 20px;
 }
 
 .zigzag-item.right {
-    padding-left: 10px;
+    float: left;
+    width: 33.3333%;
+    padding-right: 20px;
 }
 
 .cta img {
