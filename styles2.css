@@ -49,15 +49,13 @@ body {
     padding: 64px;
 }
 
-.row::after{
+.row:after{
     content: "";
     display: table;
     clear: both;
 }
 
-.zigzag-item {
-    width: 50%;
-}
+
 
 .zigzag-item.left {
     float: left;
