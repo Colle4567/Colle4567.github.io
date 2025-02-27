@@ -1,9 +1,12 @@
 *{
     box-sizing: border-box;
 }
-
+@font-face {
+    font-family: ZukaDoodle;
+    src: url('ZukaDoodle-Kz7y.ttf');
+}
 body {
-    font-family: Arial, sans-serif;
+    font-family: ZukaDoodle, sans-serif;
     margin: 0;
 }
 
@@ -35,8 +38,17 @@ body {
 }
 
 .parallax {
-    background-image: url("https://images.pexels.com/photos/1831234/pexels-photo-1831234.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); /* Replace with your image */
-    min-height: 500px; /* Adjust height as needed */
+    background-image: url("Johnny.png");
+    min-height: 920px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    background-image: url("https://images.pexels.com/photos/1831234/pexels-photo-1831234.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    min-height: 920px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
