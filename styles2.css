@@ -1,12 +1,13 @@
 *{
     box-sizing: border-box;
 }
+
 @font-face {
     font-family: ZukaDoodle;
     src: url('ZukaDoodle-Kz7y.ttf');
 }
 body {
-    font-family: ZukaDoodle, sans-serif;
+    font-family: ZukaDoodle;
     margin: 0;
 }
 
@@ -39,7 +40,7 @@ body {
 
 .parallax {
     background-image: url("Johnny.png");
-    min-height: 920px;
+    min-height: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -48,7 +49,7 @@ body {
 
 .parallax2 {
     background-image: url("https://images.pexels.com/photos/1831234/pexels-photo-1831234.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-    min-height: 920px;
+    min-height: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
