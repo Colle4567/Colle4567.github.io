@@ -8,7 +8,7 @@
 }
 body {
     font-family: ZukaDoodle;
-    margin: 0;
+    margin: 0px;
     size: 30px;
 }
 
@@ -21,20 +21,14 @@ body {
     font-size: 100px;
     font-weight: normal;
   }
-#header2{
-    position: absolute;
-    z-index: 1000;
-    top: 400px;
-    left: 100px;
-    width: 400px;
-    font-size: 20px;
-  }
+
 
 .navbar {
     overflow: hidden;
     background-color: black;
     position: sticky;
     top: 0;
+    z-index: 100;
 }
  
 .navbar img{
@@ -76,6 +70,8 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 0px;
+    padding: 0px;
 }
 
 .parallax3 {
@@ -84,6 +80,7 @@ body {
     background-attachment: fixed;
     background-position: bottom;
     background-repeat: no-repeat;
+    
     background-size: cover;
 }
 
@@ -179,3 +176,24 @@ logo1{
     height: 10%;
     width: 10%;
 }
+
+svg{
+    border: none;
+    background-color: transparent;
+    margin: 0px;
+    position: relative;
+    padding: 0px;
+}
+section2{
+    background-color: white;
+    display: flex;
+    padding-left: 0%;
+    padding-bottom: 0;
+}
+#header2{
+    position: relative;
+    z-index: 1000;
+    font-size: 100px;
+    margin: 0%;
+    padding: 0%;
+  }
